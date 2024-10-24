@@ -6,6 +6,7 @@ const port = 3000;
 app.use(cors()); // Habilitar CORS para todas as rotas
 
 const betRoutes = require("./routes/betRoutes");
+app.use(express.static("public"));
 
 // Usar as rotas importadas no caminho "/"
 app.use("/bets", betRoutes);
