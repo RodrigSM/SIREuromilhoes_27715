@@ -1,0 +1,87 @@
+/* body {
+  background-color: aqua;
+}
+
+#betstars {
+  background-color: navy;
+}
+
+ul.bet li {
+  display: inline-block;
+  width: 5%;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+
+ul.numbers li {
+  background-color: hotpink;
+}
+
+ul.stars li {
+  background-color: yellow;
+}
+
+li {
+  background-color: aquamarine;
+}
+
+div li {
+  background-color: blueviolet;
+}
+
+ul li {
+  background-color: black;
+}
+
+ul.bet.stars li {
+  background-color: darkgoldenrod;
+} */
+
+/* html {
+  background-color: green;
+} */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div#divcontainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#divBet {
+  background-color: moccasin;
+  border-radius: 50px;
+}
+
+div#divBet {
+  width: 50%;
+}
+
+ol.numbers li {
+  display: inline-block;
+  background-color: rgba(115, 255, 0, 0.432);
+  width: 100px;
+  height: 75px;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+#genBtn {
+  width: 200px;
+  height: 75px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.teste {
+  text-align: center;
+}
